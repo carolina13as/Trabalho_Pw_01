@@ -1,0 +1,460 @@
+* {
+    font-family: Noto Sans, sans-serif;
+}
+
+.body-color{
+    background-color: ghostwhite;
+}
+
+.container {
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+/* cabeçalho */
+
+header {
+    margin-top: 60px;
+    background-color: #ff4500;
+    text-align: center;
+    padding: 15px;
+    color: #fcfdff;
+}
+
+/* Fim do cabeçalho */
+
+/*Rodapé*/
+
+footer {
+    text-align: center;
+    padding: 18px;
+    background-color: darkgray;
+    margin-top: 100px;
+}
+
+.rodape{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+    
+    background-size: cover;
+   
+}
+
+.rodape2{
+    height: 100px;
+    width: 100px;
+    margin-left: 47%;
+    margin-bottom: 10px;
+    display: flex;
+    background-size: cover;
+}
+
+/*Genérico -------------------------------*/
+
+.div_especial {
+    border: 2px solid #ff4500;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    margin-top: 25px;
+    background-color: #fcfdff;
+    margin-top: 150px;
+}
+
+.card {
+    width: 27%;
+    height: 50%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.fixo{
+  
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    top:0;
+    left: 0;
+     z-index: 1;  
+ }
+
+ .mini-titulo{
+    margin-bottom: 4px;
+    margin-top: 10px;;
+}
+
+.texto_maior {
+    margin-top: 80px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.texto_maior2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+.produto-imagem-receita {
+    height: 300px;
+    width: 200%;
+    margin-bottom: 10px;
+    margin-left: 85%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.btn {
+    display: block;
+    width: 20%;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #141313;
+    padding: 9px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.color-name {
+    background-color: #f7f8fc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.div_linha{
+    display: flex;
+    width: 100%;
+    margin-left: 70px;
+}
+.div_coluna{
+    display: inline-block;
+}
+
+/*Fim do Genérico ------------------------*/
+
+/*Index-----------------------------------*/
+
+.div_index {
+    border: 2px solid #ff4500;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    margin-top: 25px;
+    background-color: #fcfdff;
+    margin-top: 150px;
+}
+
+.card_index {
+    width: 27%;
+    height: 50%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+/*Fim da Index---------------------------*/
+
+/*Menu-----------------------------------*/
+
+.div_menu {
+    border: 2px solid #ff4500;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    margin-top: 25px;
+    background-color: #fcfdff;
+    margin-top: 150px;
+}
+
+.card_menu {
+    width: 27%;
+    height: 50%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+/*Fim do Index---------------------------*/
+
+/*receita1------------------------------*/
+
+.div_receita1 {
+    border: 2px solid #ff4500;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    margin-top: 25px;
+    background-color: #fcfdff;
+    margin-top: 150px;
+}
+
+.card_rec1 {
+    width: 27%;
+    height: 50%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.produto-imagem-rec1 {
+    height: 300px;
+    width: 200%;
+    margin-bottom: 10px;
+    margin-left: 85%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+/*Fim da Receita 1 ----------------------*/
+
+/*receita2-------------------------------*/
+
+.div_receita2 {
+    border: 2px solid #ff4500;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    margin-top: 25px;
+    background-color: #fcfdff;
+    margin-top: 150px;
+}
+
+.card_rec2 {
+    width: 27%;
+    height: 50%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.produto-imagem-rec2 {
+    height: 300px;
+    width: 200%;
+    margin-bottom: 10px;
+    margin-left: 85%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+/*Fim da Receita 2 ----------------------*/
+
+/*receita3-------------------------------*/
+
+.div_receita3 {
+    border: 2px solid #ff4500;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    margin-top: 25px;
+    background-color: #fcfdff;
+    margin-top: 150px;
+}
+
+.card_rec3 {
+    width: 27%;
+    height: 50%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+}
+
+.produto-imagem-rec3 {
+    height: 300px;
+    width: 200%;
+    margin-bottom: 10px;
+    margin-left: 85%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+/*Fim da Receita 3 ----------------------*/
+.catalago-produto {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Espaço receita */
+
+.card-receita {
+    width: 100%;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.card-ingrediente {
+    width: 90%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 15px;
+    background-color: #fbe4d9;
+    border-radius: 15px;
+}
+
+.card-preparo {
+    width: 90%; 
+    margin-left: 3.2%;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 15px;
+    background-color: #fbe4d9;
+    border-radius: 15px;
+
+}
+
+.card-preparo ol{
+    margin-bottom: 10px;
+}
+
+/* Fim do espaço receita */
+
+/* Imagens */
+
+.produto-imagem {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.produto-imagem2 {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.produto-imagem3 {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+#img-1 {
+    background-image: url(/IMG/img-1.jfif);
+}
+
+#img-2 {
+    background-image: url(/IMG/img-2.jpg);
+}
+
+#img-3 {
+    background-image: url(/IMG/img-3.jpg);
+}
+
+#img-4 {
+    background-image: url(/IMG/img-4.jpg);
+}
+
+#img-5 {
+    background-image: url(/IMG/img-5.jpg);
+}
+
+#img-6 {
+    background-image: url(/IMG/img-6.jfif);
+}
+
+#img-7 {
+    background-image: url(/IMG/img-7.jfif);
+}
+
+#img-8 {
+    background-image: url(/IMG/img-8.jpg);
+}
+
+#img-9 {
+    background-image: url(/IMG/img-9.jpg);
+}
+
+#img-10 {
+    background-image: url(/IMG/img-10.jpg);
+}
+
+#img-11 {
+    background-image: url(/IMG/img-11.jpg);
+}
+
+#img-12 {
+    background-image: url(/IMG/img-12.jpg);
+}
+
+#img-13 {
+    background-image: url(/IMG/img-13.jpg);
+}
+
+#img-14 {
+    background-image: url(/IMG/img-14.jpg);
+}
+
+#img-15 {
+    background-image: url(/IMG/img-15.jpg);
+}
+
+#img-16{
+    background-image: url(/IMG/img-16.jfif);
+}
+#img-17{
+    background-image: url(/IMG/img-17.jpg);
+}
+#img-18{
+    background-image: url(/IMG/img-18.jfif);
+}
+#img-19{
+    background-image: url(/IMG/img-19.jpg);
+}
+#img-20{
+    background-image: url(/IMG/img-20.jpg);
+}
+
+#logo-1{
+    background-image: url(/IMG/logo-1.png);
+}
+
+#logo-2{
+    background-image: url(/IMG/logo-2.png);
+}
+
+#logo-3{
+    background-image: url(/IMG/logo-3.png);
+}
+
+#estrelas {
+    background-image: url(/IMG/estrelas.png);
+}
+
+.molde-estrela {
+    height: 30px;
+    width: 50%;
+    margin-bottom: 2px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.logo {
+    
+    border-radius: 100px;
+    margin-left: 41%;
+    margin-bottom: 30px;
+    width: 250px;
+    height: auto;
+   
+}
+
+/*Fim do espaço imagem*/
